@@ -32,7 +32,7 @@ public class MainActivity extends Activity {
             public void run() {
                 int width = webView.getWidth();
                 int height = webView.getHeight();
-                webView.loadUrl("https://172.22.210.157:8090/stream/video.mjpeg");
+                webView.loadUrl("http://172.22.210.157:8090/stream/video.mjpeg");
             }
         });
 
